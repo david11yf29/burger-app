@@ -4,7 +4,7 @@ import Aux from '../../hoc/Aux';
 
 import './Layout.css';
 
-const layout = (props) => {
+const Layout = (props) => {
     return (
         <Aux>
             <div>Toolbar, SideDrawer, Backdrop</div>
@@ -15,4 +15,4 @@ const layout = (props) => {
     )
 }
 
-export default layout;
+export default Layout;
