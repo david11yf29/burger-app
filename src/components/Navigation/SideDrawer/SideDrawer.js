@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../../Logo/Logo';
+// import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
 import './SideDrawer.css';
@@ -8,7 +8,9 @@ import './SideDrawer.css';
 const SideDrawer = () => {
     return (
         <div className="SideDrawer">
-            <Logo />
+            {/* <div>
+                <Logo />
+            </div> */}
             <nav>
                 <NavigationItems />
             </nav>
